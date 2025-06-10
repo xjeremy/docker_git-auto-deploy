@@ -1,0 +1,10 @@
+{
+  "host": "0.0.0.0",
+  "port": "$GAD_PORT",
+  "repositories": [{
+    "url": "$REPO_URL",
+    "branch": "$REPO_BRANCH",
+    "path": "$DEPLOY_PATH",
+    "deploy": "git -C $DEPLOY_PATH pull"
+  }]
+}
